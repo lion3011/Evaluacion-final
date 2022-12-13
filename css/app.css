@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    height: 50vh;
+    width: 100vh;
+    color: white;
+}
+
+.flex_container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 15px 10px;
+    height: 30px;
+}
+.icon_superior {
+    background-color: white;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.seccion {
+    padding: 15px 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.titulo>div {
+    background-color: rgba(129, 129, 129, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.musica {
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(129, 129, 129, 0.37);
+}
+.musica>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.musica>div>p {
+    color: blueviolet;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.list {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10rem;
+    justify-content: space-around;
+}
+.izq>p {
+    color: darkgrey;
+    font-size: 10px;
+}
+
+.foto {
+    background-color: white;
+    border-radius: 15px;
+}
+.fotod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 25%;
+}
+
+.menu {
+    height: 5rem;
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menua {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    border-radius: 30px;
+    background-color: rgba(129, 129, 129, 0.37);
+}
+
+.iconos {
+    background-color: white;
+}
